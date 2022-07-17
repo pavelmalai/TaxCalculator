@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32616.157
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Commify.TaxCalculator.API", "Commify.TaxCalculator.API\Commify.TaxCalculator.API.csproj", "{09CFFD60-EB10-43E7-8618-F78FD0D8EAD2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Commify.TaxCalculator.Core", "Commify.TaxCalculator.Core\Commify.TaxCalculator.Core.csproj", "{3296038A-9035-4857-BC61-F2DA8B8BC224}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Commify.TaxCalculator.Infrastructure", "Commify.TaxCalculator.Infrastructure\Commify.TaxCalculator.Infrastructure.csproj", "{2334CE8A-D7F2-4175-892D-5F4CB49DF175}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{E715B873-7CE8-4E47-9D69-7D5A8D96ED15}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Commify.TaxCalculator.Core.UnitTests", "Tests\Commify.TaxCalculator.Core.Tests\Commify.TaxCalculator.Core.UnitTests.csproj", "{E67D9CE7-7441-4AD5-BAF7-350109BC8F18}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{6B29A827-932C-42D8-8CFD-E37D1C06C7EC}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{09CFFD60-EB10-43E7-8618-F78FD0D8EAD2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09CFFD60-EB10-43E7-8618-F78FD0D8EAD2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09CFFD60-EB10-43E7-8618-F78FD0D8EAD2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09CFFD60-EB10-43E7-8618-F78FD0D8EAD2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3296038A-9035-4857-BC61-F2DA8B8BC224}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3296038A-9035-4857-BC61-F2DA8B8BC224}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3296038A-9035-4857-BC61-F2DA8B8BC224}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3296038A-9035-4857-BC61-F2DA8B8BC224}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2334CE8A-D7F2-4175-892D-5F4CB49DF175}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2334CE8A-D7F2-4175-892D-5F4CB49DF175}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2334CE8A-D7F2-4175-892D-5F4CB49DF175}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2334CE8A-D7F2-4175-892D-5F4CB49DF175}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E67D9CE7-7441-4AD5-BAF7-350109BC8F18}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E67D9CE7-7441-4AD5-BAF7-350109BC8F18}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E67D9CE7-7441-4AD5-BAF7-350109BC8F18}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E67D9CE7-7441-4AD5-BAF7-350109BC8F18}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E67D9CE7-7441-4AD5-BAF7-350109BC8F18} = {E715B873-7CE8-4E47-9D69-7D5A8D96ED15}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E28C1A54-6989-47DE-9772-E19DED8F68F7}
+	EndGlobalSection
+EndGlobal
